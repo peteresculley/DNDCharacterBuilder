@@ -2,8 +2,9 @@
   "name": "dndcharacterbuilder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+	"start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,5 +12,8 @@
     "url": "replaceme"
   },
   "author": "Peter Sculley",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2"
+  }
 }
