@@ -1,5 +1,30 @@
+<!DOCTYPE html>
 <html>
-<body>
-Hello World!
-</body>
+	<head>
+		<title>Character Builder</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	
+	<body>
+		<div id="basic-information">
+			<input type="text" id="character-name" placeholder="Character Name" title="Character Name" style="width: 48.5%;margin-right: 3%;"></input>
+			<input type="text" id="player-name" placeholder="Player" title="Player" style="width: 48.5%;"></input>
+			<input type="text" id="class-level" placeholder="Class and Level" title="Class and Level" style="width: 48.5%;margin-right: 3%;"></input>
+			<input type="text" id="race" placeholder="Race" title="Race" style="width: 14.1666%;margin-right: 3%;"></input>
+			<input type="text" id="alignment" placeholder="Alignment" title="Alignment" style="width: 14.1666%;margin-right: 3%;"></input>
+			<input type="text" id="deity" placeholder="Deity" title="Deity" style="width: 14.1666%;"></input>
+			<input type="text" id="size" placeholder="Size" title="Size" style="width: 9.875%;margin-right: 3%;"></input>
+			<input type="text" id="age" placeholder="Age" title="Age" style="width: 9.875%;margin-right: 3%;"></input>
+			<input type="text" id="gender" placeholder="Gender" title="Gender" style="width: 9.875%;margin-right: 3%;"></input>
+			<input type="text" id="height" placeholder="Height" title="Height" style="width: 9.875%;margin-right: 3%;"></input>
+			<input type="text" id="weight" placeholder="Weight" title="Weight" style="width: 9.875%;margin-right: 3%;"></input>
+			<input type="text" id="eyes" placeholder="Eyes" title="Eyes" style="width: 9.875%;margin-right: 3%;"></input>
+			<input type="text" id="hair" placeholder="Hair" title="Hair" style="width: 9.875%;margin-right: 3%;"></input>
+			<input type="text" id="skin" placeholder="Skin" title="Skin" style="width: 9.875%;"></input>
+		</div>
+		
+		<script>
+			require('./renderer.js');
+		</script>
+	</body>
 </html>

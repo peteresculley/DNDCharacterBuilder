@@ -1,0 +1,19 @@
+html, body {
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#basic-information {
+	text-decoration: underline;
+	padding: 5px 5px 5px 5px;
+}
+
+#basic-information > input {
+	float: left;
+	height: 1em;
+	border-width: 0px;
+	margin-bottom: 5px;
+}
